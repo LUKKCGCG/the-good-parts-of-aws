@@ -1,0 +1,25 @@
+{
+  "name": "the-good-parts-of-aws",
+  "version": "1.0.0",
+  "description": "Repo to hold code and templates accompanying the book",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/pm2/bin/pm2 start ./server.js --name hello_aws --log ../logs/app.log ",
+    "stop": "node ./node_modules/pm2/bin/pm2 stop hello_aws",
+    "build": "echo 'Building...'"
+  },
+  "dependencies": {
+    "pm2": "^4.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LUKKCGCG/the-good-parts-of-aws.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LUKKCGCG/the-good-parts-of-aws/issues"
+  },
+  "homepage": "https://github.com/LUKKCGCG/the-good-parts-of-aws#readme"
+}
